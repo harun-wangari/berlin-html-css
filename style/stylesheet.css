@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { font-family: 'Poppins', sans-serif!important; 
+width: 100vw;
+height: 100vh;
+}
+
+:root{
+    --nav-primary-color: #03A47E;
+    --nav-background-color: #FFFFFF;;
+    --nav-text-color: #252533;
+    -underline-text-color:#323232;
+    --nav-background:#ffffff;
+}
+#logo{
+    max-width: 3%;
+    float: left;
+    line-height: 80px;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 30px;
+    }
+
+nav{
+    background: var(--nav-background); 
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    }
+
+nav ul{
+    float: left;
+
+}
+ 
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: var(--nav-text-color);
+    font-size: 15px;
+    padding: 7px 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    background: var(--nav-primary-color);
+    border-radius: 4px;
+}
+
+.navlinks{
+  margin: 0 10px;
+}
+
+.login{
+    float:right;
+    margin: 0 20px;
+}
+
+#in{
+    border: 2px solid var(--nav-primary-color);
+    border-radius: 4px;
+}
+
+#join{
+    border: 2px solid var(--nav-primary-color);
+    border-radius: 4px;
+    color: var(--nav-background);
+    background: var(--nav-primary-color);
+}
+
+/* Mobile responsiveness*/
+@media screen and (max-width:860px) {
+    #logo{
+        max-width: 3%;
+        vertical-align: middle;
+    }
+
+    nav ul li{
+        margin: 0 1px;
+    }
+    nav ul li a{
+        font-size: 12px;
+        padding: 7px 4px;
+    }
+
+    .navlinks{
+        margin: 0 2rem;
+      }
+      .login{
+        float:right;
+        margin: 0 10px;
+    }
+}
+
