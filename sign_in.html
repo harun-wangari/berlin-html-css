@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpaceYaTech Sign In</title>
+    <script src="https://use.fontawesome.com/17a16dd23d.js"></script>
     <link rel="stylesheet" href="style/sign_in_style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
 </head>
 <body>
-    
+    <div class="maincontainer">
+        <div class="logo">
+            <img src="images/logo_large.png" alt="logo_large" class="logoimage">
+        </div>
+        <div class="content">
+            <h2 class="header">Login To Space Ya Tech</h2>
+            <input type="text" name="txtusername" id="txtusername" placeholder="Username or Email address" class="input">
+            <input type="password" name="txtpassword" id="txtpassword" placeholder="Password" class="input">
+            <input type="button" name="btnlogin" id="btnlogin" value="Login" class="input">
+            <div class="account">
+                <a href="sign_up.html" class="signup">New here? Sign up</a>
+                <a href="forgot_password.html" class="forgot">Forgot Password?</a>
+            </div>
+            <div class="seperator">
+                <hr><span class="or">OR</span><hr>
+            </div>
+            <button type="button" name="btngoogle" id="btngoogle"  class="input"><i class="fa-brands fa-google"></i>Login With Google</button>
+            <button type="button" name="btnfacebook" id="btnfacebook" class="input"><i class="far fa-facebook-f"></i>Login With Facebook</button>
+        </div>
+    </div>
 </body>
 </html>

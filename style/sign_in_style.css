@@ -8,3 +8,140 @@ body { font-family: 'Poppins', sans-serif!important;
 width: 100vw;
 height: 100vh;
 }
+
+.logo{
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #03A47E;
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    
+}
+
+.logoimage{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    left: 50%;
+    top:15%;
+    transform: translate(-50%);
+}
+    
+
+/* Frame 365 */
+.content{
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    left: 50vw;
+    top: 0px;
+    padding: 6vw;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+/* Login to Space Ya tech */
+.header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #252533;
+}
+
+
+.input{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-color: #252533;
+    border-width: 1px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.input:focus{
+    border-color: #009975;
+    box-shadow: 1px 1px 2px 2px #009975;
+    outline: none;
+}
+
+.seperator,.account{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.forgot,.signup{
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    color: #56565f;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.signup{
+    text-align: left;
+}
+
+.forgot{
+    text-align: right;
+}
+
+hr{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+.or{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#btnlogin{
+    background-color: #009975;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 5px;
+}
+
+#btngoogle{
+    background-color: #FFFFFF ;
+}
+
+#btnfacebook{
+    background-color: #001C52;
+    color: #FFFFFF;
+    border: none;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
