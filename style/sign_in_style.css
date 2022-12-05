@@ -20,7 +20,6 @@ height: 100vh;
     position: absolute;
     width: 50vw;
     height: 100vh;
-    
 }
 
 .logoimage{
@@ -130,6 +129,7 @@ hr{
 
 #btngoogle{
     background-color: #FFFFFF ;
+    text-align: left;
 }
 
 #btnfacebook{
@@ -143,5 +143,9 @@ hr{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20%;
+    margin-right: 6%;
     -webkit-text-fill-color: transparent;
   }
